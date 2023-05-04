@@ -1,0 +1,120 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Matteo Passalent
+ID:      210597410
+Email:   pass7410@mylaurier.ca
+Version: 2023-01-25
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+True
+False
+3
+2
+2
+1
+True
+
+------------------------------------------------------
+True
+False
+3
+2
+2
+1
+True
+
+-------------------------------------------------------
+True
+False
+3
+2
+2
+1
+True
+
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+0
+1
+2
+3
+4
+5
+---------------------------------------------------
+0
+1
+2
+3
+4
+5
+--------------------------------------------------
+0
+1
+2
+3
+4
+5
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+[0, 1, 2, 3, 4, 5]
+-----------------------------------------------------
+[0, 1, 2, 3, 4, 5]
+------------------------------------------------------
+[0, 1, 2, 3, 4, 5]
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Stack should be empty (True): True
+Stack should be non-empty (False): False
+Should return and remove top value: 5
+Stack should be empty (True): True
+Should return top value: 4
+
+----------------------------------------------------
+Stack should be empty (True): True
+Stack should be non-empty (False): False
+Should return and remove top value: 5
+Stack should be empty (True): True
+Should return top value: 4
+
+----------------------------------------------------
+Stack should be empty (True): True
+Stack should be non-empty (False): False
+Should return and remove top value: 5
+Stack should be empty (True): True
+Should return top value: 4
+
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Stack should be empty (True): True
+Stack should be non-empty (False): False
+Should return and remove top value: Zulu|2013|Jerome Salle|6.7|2
+
+Stack should be empty (True): True
+Should return top value: Wonder Woman|2017|Patty Jenkins|8.1|1,6
+-------------------------------------------------
+Stack should be empty (True): True
+Stack should be non-empty (False): False
+Should return and remove top value: Zulu|2013|Jerome Salle|6.7|2
+
+Stack should be empty (True): True
+Should return top value: Wonder Woman|2017|Patty Jenkins|8.1|1,6
+
+--------------------------------------------------
+Stack should be empty (True): True
+Stack should be non-empty (False): False
+Should return and remove top value: Zulu|2013|Jerome Salle|6.7|2
+
+Stack should be empty (True): True
+Should return top value: Wonder Woman|2017|Patty Jenkins|8.1|1,6
+
+-------------------------------------------------------
