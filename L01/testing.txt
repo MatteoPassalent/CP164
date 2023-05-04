@@ -1,0 +1,280 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Matteo Passalent
+ID:      210597410
+Email:   pass7410@mylaurier.ca
+Version: 2023-01-20
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+zombie, comedy, romance, science fiction, mystery, fantasy
+------------------------------------------------------
+zombie, comedy, romance, science fiction, mystery, fantasy
+-------------------------------------------------------
+zombie, comedy, romance, science fiction, mystery, fantasy
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+3,4,5,8
+
+---------------------------------------------------
+3,4,5,8
+
+--------------------------------------------------
+3,4,5,8
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+-----------------------------------------------------
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+------------------------------------------------------
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+
+Enter a genre number (Enter to quit): 0
+Enter a genre number (Enter to quit): 1
+Enter a genre number (Enter to quit): 2
+Enter a genre number (Enter to quit): 3
+Enter a genre number (Enter to quit): 
+[0, 1, 2, 3]
+
+----------------------------------------------------
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+
+Enter a genre number (Enter to quit): 0
+Enter a genre number (Enter to quit): 0
+Error: Genre already entered
+Enter a genre number (Enter to quit): 1
+Enter a genre number (Enter to quit): 1
+Error: Genre already entered
+Enter a genre number (Enter to quit): 2
+Enter a genre number (Enter to quit): 2
+Error: Genre already entered
+Enter a genre number (Enter to quit): 3
+Enter a genre number (Enter to quit): 3
+Error: Genre already entered
+Enter a genre number (Enter to quit): 3
+Error: Genre already entered
+Enter a genre number (Enter to quit): 
+[0, 1, 2, 3]
+
+----------------------------------------------------
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+
+Enter a genre number (Enter to quit): -1
+Error: input must be a positive integer
+Enter a genre number (Enter to quit): 11
+Error: input must be between 0 and 10
+Enter a genre number (Enter to quit): 100
+Error: input must be between 0 and 10
+Enter a genre number (Enter to quit): drama
+Error: input must be a positive integer
+Enter a genre number (Enter to quit): 1
+Enter a genre number (Enter to quit): 0
+Enter a genre number (Enter to quit): 0
+Error: Genre already entered
+Enter a genre number (Enter to quit): horror
+Error: input must be a positive integer
+Enter a genre number (Enter to quit): 11
+Error: input must be between 0 and 10
+Enter a genre number (Enter to quit): 2
+Enter a genre number (Enter to quit): 3
+Enter a genre number (Enter to quit): 10
+Enter a genre number (Enter to quit): 
+[0, 1, 2, 3, 10]
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Title: Harry Potter
+Year of release: 1999
+Director: Jk Rowling
+Rating 1 - 10: 7.9
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+
+Enter a genre number (Enter to quit): 0
+Enter a genre number (Enter to quit): 0
+Error: Genre already entered
+Enter a genre number (Enter to quit): drama
+Error: input must be a positive integer
+Enter a genre number (Enter to quit): -100
+Error: input must be a positive integer
+Enter a genre number (Enter to quit): 11
+Error: input must be between 0 and 10
+Enter a genre number (Enter to quit): 2
+Enter a genre number (Enter to quit): 4
+Enter a genre number (Enter to quit): 7
+Enter a genre number (Enter to quit): 1
+Enter a genre number (Enter to quit): 
+Title:    Harry Potter
+Year:     1999
+Director: Jk Rowling
+Rating:   7.9
+Genres:   science fiction, fantasy, drama, comedy, historical
+-------------------------------------------------
+Title: ant man
+Year of release: 2017
+Director: marvel
+Rating 1 - 10: 5.678
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+
+Enter a genre number (Enter to quit): 0
+Enter a genre number (Enter to quit): 1
+Enter a genre number (Enter to quit): 10
+Enter a genre number (Enter to quit): 10
+Error: Genre already entered
+Enter a genre number (Enter to quit): 
+Title:    ant man
+Year:     2017
+Director: marvel
+Rating:   5.678
+Genres:   science fiction, fantasy, mystery
+
+--------------------------------------------------
+Title: tiandaga knights
+Year of release: 2002
+Director: will farrel
+Rating 1 - 10: 9.9
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+
+Enter a genre number (Enter to quit): 0
+Enter a genre number (Enter to quit): 1
+Enter a genre number (Enter to quit): 3
+Enter a genre number (Enter to quit): 
+Title:    tiandaga knights
+Year:     2002
+Director: will farrel
+Rating:   9.9
+Genres:   science fiction, fantasy, romance
+
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+Title:    Dellamorte Dellamore
+Year:     1994
+Director: Michele Soavi
+Rating:   7.2
+Genres:   romance, comedy, zombie, horror
+
+-------------------------------------------------------
+Title:    Dellamorte Dellamore
+Year:     1994
+Director: Michele Soavi
+Rating:   7.2
+Genres:   romance, comedy, zombie, horror
+-------------------------------------------------------
+Title:    Dellamorte Dellamore
+Year:     1994
+Director: Michele Soavi
+Rating:   7.2
+Genres:   romance, comedy, zombie, horror
+-------------------------------------------------------
+t07
+-------------------------------------------------------
+[<Movie.Movie object at 0x00000275A162C290>, <Movie.Movie object at 0x00000275A162C410>, <Movie.Movie object at 0x00000275A162C510>, <Movie.Movie object at 0x00000275A162C610>, <Movie.Movie object at 0x00000275A162C710>, <Movie.Movie object at 0x00000275A162C7D0>, <Movie.Movie object at 0x00000275A162C910>, <Movie.Movie object at 0x00000275A162CA10>, <Movie.Movie object at 0x00000275A162CB10>, <Movie.Movie object at 0x00000275A162CAD0>, <Movie.Movie object at 0x00000275A162CC90>, <Movie.Movie object at 0x00000275A162CD50>, <Movie.Movie object at 0x00000275A162CDD0>, <Movie.Movie object at 0x00000275A162CED0>, <Movie.Movie object at 0x00000275A162CF90>, <Movie.Movie object at 0x00000275A162D050>, <Movie.Movie object at 0x00000275A162D0D0>, <Movie.Movie object at 0x00000275A162D150>, <Movie.Movie object at 0x00000275A162D210>, <Movie.Movie object at 0x00000275A162D350>, <Movie.Movie object at 0x00000275A162D410>]
+
+-------------------------------------------------------
+[<Movie.Movie object at 0x00000275A162C290>, <Movie.Movie object at 0x00000275A162C410>, <Movie.Movie object at 0x00000275A162C510>, <Movie.Movie object at 0x00000275A162C610>, <Movie.Movie object at 0x00000275A162C710>, <Movie.Movie object at 0x00000275A162C7D0>, <Movie.Movie object at 0x00000275A162C910>, <Movie.Movie object at 0x00000275A162CA10>, <Movie.Movie object at 0x00000275A162CB10>, <Movie.Movie object at 0x00000275A162CAD0>, <Movie.Movie object at 0x00000275A162CC90>, <Movie.Movie object at 0x00000275A162CD50>, <Movie.Movie object at 0x00000275A162CDD0>, <Movie.Movie object at 0x00000275A162CED0>, <Movie.Movie object at 0x00000275A162CF90>, <Movie.Movie object at 0x00000275A162D050>, <Movie.Movie object at 0x00000275A162D0D0>, <Movie.Movie object at 0x00000275A162D150>, <Movie.Movie object at 0x00000275A162D210>, <Movie.Movie object at 0x00000275A162D350>, <Movie.Movie object at 0x00000275A162D410>]
+
+-------------------------------------------------------
+[<Movie.Movie object at 0x00000275A162C290>, <Movie.Movie object at 0x00000275A162C410>, <Movie.Movie object at 0x00000275A162C510>, <Movie.Movie object at 0x00000275A162C610>, <Movie.Movie object at 0x00000275A162C710>, <Movie.Movie object at 0x00000275A162C7D0>, <Movie.Movie object at 0x00000275A162C910>, <Movie.Movie object at 0x00000275A162CA10>, <Movie.Movie object at 0x00000275A162CB10>, <Movie.Movie object at 0x00000275A162CAD0>, <Movie.Movie object at 0x00000275A162CC90>, <Movie.Movie object at 0x00000275A162CD50>, <Movie.Movie object at 0x00000275A162CDD0>, <Movie.Movie object at 0x00000275A162CED0>, <Movie.Movie object at 0x00000275A162CF90>, <Movie.Movie object at 0x00000275A162D050>, <Movie.Movie object at 0x00000275A162D0D0>, <Movie.Movie object at 0x00000275A162D150>, <Movie.Movie object at 0x00000275A162D210>, <Movie.Movie object at 0x00000275A162D350>, <Movie.Movie object at 0x00000275A162D410>]
+
+-------------------------------------------------------
